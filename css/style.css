@@ -21,7 +21,7 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-thumb {
-background-color:  #c2b6b2;
+background-color:  #c0043d;
 outline: 1px solid rgb(7, 7, 7);
 }
 
@@ -112,178 +112,21 @@ h4  .icon{
     background-color: white;
 }
 
+/* about us page */
+.AboutUsImage{
+    width: 100%;
+}
+/* courses section */
+.CoursesButton{
+    margin-left: 20vw;
+    color: white;
+    background-color: #0f0f0e;
+    border-radius: 50px;
+    font-weight: 600;
+    width: 60vw;
+    padding: 10px;
+}
 
-#mediais6dqtb82inlineContent {
-                height: auto;
-                width: 320px;
-                position: relative;
-            }
-            
-            #mediais6dqtb82inlineContent-gridWrapper {
-                pointer-events: none;
-            }
-            
-            #mediais6dqtb82inlineContent-gridContainer {
-                position: static;
-                display: grid;
-                height: auto;
-                width: 100%;
-                min-height: auto;
-                grid-template-rows: min-content min-content min-content min-content min-content min-content min-content min-content min-content min-content min-content min-content min-content min-content 1fr;
-                grid-template-columns: 100%;
-            }
-            
-            #comp-im3mbcug {
-                position: relative;
-                margin: 48px 0px 23px 0;
-                left: 13px;
-                grid-area: 1 / 1 / 2 / 2;
-                justify-self: start;
-                align-self: start;
-            }
-            
-            #comp-im3md0ap {
-                position: relative;
-                margin: 0px 0px 28px 0;
-                left: 140px;
-                grid-area: 2 / 1 / 3 / 2;
-                justify-self: start;
-                align-self: start;
-            }
-            
-            #comp-im3lvul2 {
-                position: relative;
-                margin: 0px 0px 16px 0;
-                left: 93px;
-                grid-area: 3 / 1 / 4 / 2;
-                justify-self: start;
-                align-self: start;
-            }
-            
-            #comp-im3lws8j {
-                position: relative;
-                margin: 0px 0px 21px 0;
-                left: 13px;
-                grid-area: 4 / 1 / 5 / 2;
-                justify-self: start;
-                align-self: start;
-            }
-            
-            #comp-im3m44jc {
-                position: relative;
-                margin: 0px 0px 0 0;
-                left: 93px;
-                grid-area: 6 / 1 / 7 / 2;
-                justify-self: start;
-                align-self: start;
-            }
-            
-            #comp-im4nhmug {
-                position: relative;
-                margin: 0px 0px 21px 0;
-                left: 13px;
-                grid-area: 7 / 1 / 8 / 2;
-                justify-self: start;
-                align-self: start;
-            }
-            
-            #comp-im3m4e1n2 {
-                position: relative;
-                margin: 0px 0px 2px 0;
-                left: 93px;
-                grid-area: 10 / 1 / 11 / 2;
-                justify-self: start;
-                align-self: start;
-            }
-            
-            #comp-im4nip56 {
-                position: relative;
-                margin: 0px 0px 20px 0;
-                left: 13px;
-                grid-area: 11 / 1 / 12 / 2;
-                justify-self: start;
-                align-self: start;
-            }
-            
-            #comp-im4njcqq {
-                position: relative;
-                margin: 0px 0px 19px 0;
-                left: 13px;
-                grid-area: 14 / 1 / 15 / 2;
-                justify-self: start;
-                align-self: start;
-            }
-            
-            #comp-im3m4l222 {
-                position: relative;
-                margin: 0px 0px 0 0;
-                left: 93px;
-                grid-area: 13 / 1 / 14 / 2;
-                justify-self: start;
-                align-self: start;
-            }
-            
-            #comp-im3m1ckl {
-                position: relative;
-                margin: 0px 0px 30px 0;
-                left: 72px;
-                grid-area: 5 / 1 / 6 / 2;
-                justify-self: start;
-                align-self: start;
-            }
-            
-            #comp-im3m44jb {
-                position: relative;
-                margin: 0px 0px 16px 0;
-                left: 72px;
-                grid-area: 8 / 1 / 9 / 2;
-                justify-self: start;
-                align-self: start;
-            }
-            
-            #comp-im3m44jb1 {
-                position: relative;
-                margin: 0px 0px 25px 0;
-                left: 83px;
-                grid-area: 9 / 1 / 10 / 2;
-                justify-self: start;
-                align-self: start;
-            }
-            
-            #comp-im3m4e1n {
-                position: relative;
-                margin: 0px 0px 42px 0;
-                left: 72px;
-                grid-area: 12 / 1 / 13 / 2;
-                justify-self: start;
-                align-self: start;
-            }
-            
-            #comp-im3m4l22 {
-                position: relative;
-                margin: 0px 0px 10px 0;
-                left: 72px;
-                grid-area: 15 / 1 / 16 / 2;
-                justify-self: start;
-                align-self: start;
-            }
-            
-            #mediais6dqtb82centeredContent {
-                position: relative;
-            }
-            
-            #mediais6dqtb82inlineContent-gridContainer > * {
-                pointer-events: auto;
-            }
-            
-            #mediais6dqtb82inlineContent-gridContainer > [id$="-rotated-wrapper"] {
-                pointer-events: none;
-            }
-            
-            #mediais6dqtb82inlineContent-gridContainer > [id$="-rotated-wrapper"] > * {
-                pointer-events: auto;
-            }
-   
    /* --------------------------------------------------------------media queries */
  
  /* // Extra small devices (portrait phones, less than 576px) */
@@ -309,6 +152,13 @@ h4  .icon{
 }
 .FormButton{
     width: 20vw;
+}
+.CoursesButton{
+    margin-left: 40vw;
+    width: 20vw;
+}
+.AboutUsImage{
+    width: 70%;
 }
     
  }
