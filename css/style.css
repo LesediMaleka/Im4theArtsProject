@@ -124,6 +124,15 @@ a{
     width: 100%;
 }
 /* courses section */
+.CourseDiv:hover{
+    background-color: rgb(255, 0, 149);
+    opacity: 0.2;
+    width: 100%;
+    height: auto;
+}
+.CoursesImages{
+    width: 100%;
+}
 .CoursesButton{
     margin-left: 20vw;
     color: white;
@@ -132,6 +141,14 @@ a{
     font-weight: 600;
     width: 60vw;
     padding: 10px;
+}
+
+/* meet our team section */
+
+.FacilitatorName:hover{
+    opacity: 0.6;
+    color: rgb(255, 0, 149);
+    font-size: 1em;
 }
 footer{
     margin-top: -3vh;
@@ -151,6 +168,24 @@ footer{
  /* -Medium devices (tablets or ipad) */
  @media (min-width: 768px) {
 
+    /* about us page */
+.CoursesImages{
+    width: 60%;
+}
+
+.FormButton{
+    width: 25vw;
+    margin-left: 20vw;
+}
+.CoursesButton{
+    margin-left: 40vw;
+    width: 25vw;
+}
+/* about us section */
+.AboutButton{
+    margin-left: 20vw;
+    width: 25vw;
+}
 
 
 }
