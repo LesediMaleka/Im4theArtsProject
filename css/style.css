@@ -66,13 +66,14 @@ a{
     color: rgb(0, 0, 0);
 }
 
-.carouselDiv{
+/* .carouselDiv{
     margin-top: -24vh;
-}
-.carouselLines{
-    z-index: 200;
-    background-color: yellow;
-}
+} */
+/* .carouselLines{
+    
+    transform: translateY(-370px);
+
+} */
 
 /* about us section */
 .AboutButton{
