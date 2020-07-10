@@ -43,6 +43,12 @@ h4{
    
 }
 
+/* hr line */
+.NameHrLine{
+    border-top: 2px solid #0f0f0e;
+    margin: 20px;
+}
+
 
 /*  general classes*/
 .hideMobile{
@@ -60,54 +66,14 @@ a{
     color: rgb(0, 0, 0);
 }
 
-/*footer section */
-.icon{
-    display: inline-block;
-    font-size: 1em;
-    border: 1.5px solid white;
-    border-radius: 50%;
-    height: 40px;
-    width: 40px;
-    text-align: center;
-    padding-top: 7px;
-    /* background-color: white; */
-    background-color:  rgb(209, 204, 204);
+.carouselDiv{
+    margin-top: -24vh;
+}
+.carouselLines{
+    z-index: 200;
+    background-color: yellow;
 }
 
-/*contact section/page */
-.FormButton{
-    color: white;
-    background-color: #0f0f0e;
-    border-radius: 50px;
-    font-weight: 600;
-    width: 60vw;
-    padding: 10px;
-    margin-left: 20vw;
-}
-  /* form section */
-.form-control{
-    background-color: rgb(209, 204, 204);
-    color: rgb(255, 255, 255);
-    font-weight: 400;
-}
-
-.form-controlTwo{
-    font-size: 14px;
-    border: none;
-    color: rgb(3, 3, 3);
-    border-bottom: 1px solid black;
-    width: 80vw;
-    
-}
-/* footer section */
- /* footer text */
- .CopyText{
-    text-align: center;
-    font-size: 18px;
-}
-.FullName{
-    color:#070706;
-}
 /* about us section */
 .AboutButton{
     margin-left: 15vw;
@@ -150,6 +116,55 @@ a{
     color: rgb(255, 0, 149);
     font-size: 1em;
 }
+
+/*contact section/page */
+.FormButton{
+    color: white;
+    background-color: #0f0f0e;
+    border-radius: 50px;
+    font-weight: 600;
+    width: 60vw;
+    padding: 10px;
+    margin-left: 20vw;
+}
+  /* form section */
+.form-control{
+    background-color: rgb(209, 204, 204);
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+}
+
+.form-controlTwo{
+    font-size: 14px;
+    border: none;
+    color: rgb(3, 3, 3);
+    border-bottom: 1px solid black;
+    width: 80vw;
+    
+}
+/*footer section */
+.icon{
+    display: inline-block;
+    font-size: 1em;
+    border: 1.5px solid white;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    /* background-color: white; */
+    background-color:  rgb(209, 204, 204);
+}
+/* footer section */
+ /* footer text */
+ .CopyText{
+    text-align: center;
+    font-size: 18px;
+}
+.FullName{
+    color:#070706;
+}
+
 footer{
     margin-top: -3vh;
 }
@@ -168,6 +183,13 @@ footer{
  /* -Medium devices (tablets or ipad) */
  @media (min-width: 768px) {
 
+
+    /* Landing page */
+
+.carousel-item{
+    width: 100%;
+    height: 60%;
+}
     /* about us page */
 .CoursesImages{
     width: 60%;
@@ -188,6 +210,7 @@ footer{
 }
 
 
+
 }
  
  /* -Large devices (ipad pro) */
@@ -195,6 +218,9 @@ footer{
 .DesktopOnly{
     display: block;
 }
+
+/* Landing page */
+
 .FormButton{
     width: 20vw;
     margin-left: 15vw;
