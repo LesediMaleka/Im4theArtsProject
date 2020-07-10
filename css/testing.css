@@ -5,37 +5,14 @@ html{
     overflow-x: hidden;
 }
 body{
-    background: black !important;
-    font-family: 'Montserrat', sans-serif;
-    color: white;
-    font-size: 1.5em;
-    overflow-x: hidden; 
-    overflow-y: hidden;
-}
-body::-webkit-scrollbar {
-  width: 0.2em;
+    background: rgb(204, 198, 198) !important;
+    color: rgb(5, 5, 5);
+
 }
 
-body::-webkit-scrollbar-thumb {
-background-color:  #eb5e28;
-outline: 1px solid rgb(7, 7, 7);
-}
 
-h1{
-    text-align: center;
-    color: #eb5e28;
-    letter-spacing: 0.2em;
-}
-h2{
-    text-align: center;
-    color: #f7931e;
-    font-size: 0.8em;
-    margin-top: 5vh;
-}
-.MediaDiv{
-    z-index: 20;
-    /* margin-left:-2vw; */
-}
+
+/*  */
 /* Navbar for mobile*/
 .overlay{
     height: 100%;
