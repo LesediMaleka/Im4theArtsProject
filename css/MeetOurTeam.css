@@ -12,6 +12,8 @@ body{
     background: red;
     border: 2px solid white;
 } */
+
+
 .art{
     margin-top: -8vh;
 }
@@ -24,7 +26,10 @@ body{
 .menu{
     float: right;
 }
-
+img {
+    max-width: 100%;
+    height: auto;
+  }
 /* --------------------------------------------------------------media queries */
 
 /* // Extra small devices (portrait phones, less than 576px) */
