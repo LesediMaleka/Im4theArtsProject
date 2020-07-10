@@ -18,6 +18,9 @@
     <link rel="stylesheet" href="css/style.css">
 
 
+    <link rel="stylesheet" href="css/testing.css">
+
+
     <!-- fontawesome icon style link -->
     <link rel="stylesheet" href="assests/fontawesome/css/all.min.css">
 
@@ -38,15 +41,117 @@
 </head>
 <body>
 
+
+
+      <!--  -->
+
+
+      <!-- icons -->
+      <div class="container icons">
+        <div class="row my-3">
+          <div class="col-10 col-xl-12 MediaDiv animate__animated animate__fadeInDown">
+    
+              <!-- media icons -->
+             <div class="icon"><a href="https://github.com/LesediMaleka/PortfolioWebsite" target="_blank"><i class="fab fa-github mediaIcons"></i></a></div>
+  
+           
+          </div>
+          <div class="col-2 mobile-only" >
+         
+    
+             <i class="fas fa-bars icon mobile-only mediaIcons Bars animate__animated animate__fadeInDown" style="cursor:pointer" onclick="openNav()"></i>
+    
+          </div>
+        </div>
+      </div>
+  
+    <!-- hidden navigation menu on mobile -->
+    <div id="myNav" class="overlay container-fluid">
+      <div class="row my-3">
+        <div class="col-12">
+  
+       
+  
+            <div class="icon closebtn">
+              <i class="fas fa-times mediaIcons" onclick="closeNav()"></i>
+           </div>
+  
+  
+        </div>
+        <div class="col-12 my-5">
+          <div class="overlay-content text-center">
+            <ul>
+              <li><a href="index.html" class="active">Home</a></li>
+              <li><a href="AboutUs.html">About Us</a></li>
+              <li><a href="testing.html">test</a></li>
+              <li><a href="BecomeAmember.html">member</a></li>
+              <li><a href="Contact.html">Get In Touch</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+   
+  
+   <!-- hr line -->
+    <div class="NameHrLine"></div>
+  
+    <!-- Desktop content -->
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+        
+            <nav class="navbar navbar-expand-lg navbar-white desktop-only DesktopNavbar">
+                  
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+              </button>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">HOME<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="AboutUs.html">ABOUT ME</a>
+              </li>
+  
+              <li class="nav-item">
+                  <a class="nav-link" href="testing.html">Test</a>
+                </li>
+  
+                <li class="nav-item">
+                  <a class="nav-link" href="BecomeAmember.html">
+                    <strong>member</strong>
+                  </a>
+                </li>
+  
+                <li class="nav-item">
+                  <a class="nav-link" href="Contact.html">GET IN TOUCH</a>
+                </li>
+          
+            </ul>
+          </div>
+        </nav>
+          
+        </div>
+      </div>
+    </div>
+
+
+
+    <!--  -->
+
    <!--contact us page -->
    <div class="block">
 
 
-    <h2 class="fs-3 fs-sm-4 text-underline mb-3 text-center">Contact Us</h2>
+    
 
     <div class="container-fluid my-5">
 
-      
+        <h2 class="fs-3 fs-sm-4 text-underline mb-3 text-center">Contact Us</h2>
       
 
       <div class="row">
@@ -92,6 +197,8 @@
                   <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"  name="message" placeholder="Your message"></textarea>
                 </div>
 
+                <br>
+
                 <a href="mailto:action@Iam4theArts.org.za">
                   <button type="submit" class="btn FormButton"> Submit</button>
                 </a>
@@ -125,8 +232,10 @@
 
   </div>
 
+  <!--  -->
+  <!--  -->
 
-
+<!-- footer section -->
   <footer>
 
     <!-- icons -->
@@ -135,18 +244,28 @@
         <div class="col-12 col-xl-12">
   
             <!-- media icons -->
-            <a href="https://github.com/LesediMaleka/PortfolioWebsite" target="_blank">
+            <a href="https://www.facebook.com/groups/Im4theArts/" target="_blank">
               <div class="icon">
-                <i class="fab fa-github mediaIcons"></i>
+            
+
+                <i class="fab fa-facebook-f mediaIcons"></i>
               </div>
             </a>
   
   
           <div class="icon">
-            <a href="https://www.linkedin.com/mynetwork/" target="_blank">
-              <i class="fab fa-linkedin-in mediaIcons"></i>
+            <a href="https://twitter.com/im4thearts" target="_blank">
+             
+              <i class="fab fa-twitter mediaIcons"></i>
             </a>
           </div>
+
+          <div class="icon">
+            <a href="https://www.youtube.com/channel/UCxTI7cHhxAJaL_jqOYEs0Iw" target="_blank">
+              
+              <i class="fab fa-youtube mediaIcons"></i>
+              </a>
+            </div>
   
           <div class="icon">
             <a href="mailto:action@Iam4theArts.org.za" target="_blank">
