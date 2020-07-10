@@ -19,7 +19,7 @@ body{
     width: 100%;
     display: none;
     position: fixed;
-    z-index: 1;
+    z-index: 5;
     left:-100vw;
     top: 0;
     left: 0;
@@ -61,15 +61,6 @@ body{
   }
 
  
-/* coders name */
-.name{
-    color: #eb5e28;
-}
-/* hr line */
-.NameHrLine{
-    border-top: 1px solid #f7931e;
-    margin: 20px;
-}
 
 
 
