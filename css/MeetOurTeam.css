@@ -1,6 +1,14 @@
 body{
-    font-size: 2em;
-    color: white;
+    
+  background-color: pink;
+  overflow-y: hidden;
+  
+}
+.Lap{
+    display: none;
+}
+.Phon{
+  margin-top: -110vh;
 }
 /* .container-fluid{
     background: purple;
@@ -14,22 +22,7 @@ body{
 } */
 
 
-.art{
-    margin-top: -8vh;
-}
-/* general styles */
-.hide-on-mobile{
-    display: none;
-}
 
-/* menu */
-.menu{
-    float: right;
-}
-img {
-    max-width: 100%;
-    height: auto;
-  }
 /* --------------------------------------------------------------media queries */
 
 /* // Extra small devices (portrait phones, less than 576px) */
@@ -64,7 +57,16 @@ img {
 
 /* // --------------------------------------------------------------Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
-
+    .Lap{
+        margin-top: -240vh;
+        margin-left: 60vw;
+    }
+    .contact{
+        margin-left: 10vw;
+    }
+    .Phon{
+        display: none;
+    }
  }
 /* --------------------------------------------------------------Extra large devices landscape */
  @media (min-width: 1200px) and (orientation: landscape) { 
