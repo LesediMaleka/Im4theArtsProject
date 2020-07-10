@@ -10,8 +10,122 @@
     <!-- link to stylesheet -->
     <!-- <link rel="stylesheet" href="css/WorkingGroup.css"> -->
    <link rel="stylesheet" href="css/MeetOurTeam.css">
+   <link rel="stylesheet" href="css/style.css">
+    
+
+   <link rel="stylesheet" href="css/testing.css">
+     <!-- link to animate.css -->
+     <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+
+     <!-- link to animate on scroll -->
+     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
+ <!-- icons -->
+ <div class="container icons">
+    <div class="row my-3">
+      <div class="col-10 col-xl-12 MediaDiv animate__animated animate__fadeInDown">
+
+          <!-- media icons -->
+         <div class="icon"><a href="https://github.com/LesediMaleka/PortfolioWebsite" target="_blank"><i class="fab fa-github mediaIcons"></i></a></div>
+
+
+         
+
+       
+      </div>
+      <div class="col-2 mobile-only" >
+     
+
+         <i class="fas fa-bars icon mobile-only mediaIcons Bars animate__animated animate__fadeInDown" style="cursor:pointer" onclick="openNav()"></i>
+
+      </div>
+    </div>
+  </div>
+
+<!-- hidden navigation menu on mobile -->
+<div id="myNav" class="overlay container-fluid">
+  <div class="row my-3">
+    <div class="col-12">
+
+   
+
+        <div class="icon closebtn">
+          <i class="fas fa-times mediaIcons" onclick="closeNav()"></i>
+       </div>
+
+
+    </div>
+    <div class="col-12 my-5">
+      <div class="overlay-content text-center">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="AboutUs.html">About Me</a></li>
+          <li><a href="testing.html">Test</a></li>
+          <li><a href="BecomeAmember.html">member</a></li>
+          <li><a href="Contact.html">Get In Touch</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- hr line -->
+<div class="NameHrLine"></div>
+
+<!-- Desktop content -->
+<div class="container">
+  <div class="row">
+    <div class="col-12 text-center">
+    
+        <nav class="navbar navbar-expand-lg navbar-white desktop-only DesktopNavbar">
+              
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">HOME<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="AboutUs.html">ABOUT Us </a>
+          </li>
+
+          <li class="nav-item">
+              <a class="nav-link" href="testing.html">Test</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="BecomeAmember.html">
+                <strong>member</strong>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="Contact.html">GET IN TOUCH</a>
+            </li>
+      
+        </ul>
+      </div>
+    </nav>
+      
+    </div>
+  </div>
+</div>
+
+
+
+<!--  -->
+
+
+
+
+
+
     <div class="hoverbox">
         <img class="rounded img-fluid" src="assests/Images/ImagePlaceholder.jpg" alt="" data-zanim-xs="{&quot;animation&quot;:&quot;zoom-in&quot;,&quot;delay&quot;:0.1}" style="filter: blur(0px); opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">
         <div class="hoverbox-content p-3">
@@ -64,7 +178,8 @@
             </div>
        
         </section>
-
+        <script src="js/script.js
+        "></script>
     <!-- link to bootstrap js -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
